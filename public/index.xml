@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vishal Kotha | Materials Scientist</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Vishal Kotha | Materials Scientist</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://localhost:1313/experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/experience/</guid>
+      <description>&lt;p&gt;title: &amp;ldquo;Professional Experience&amp;rdquo;
+date: 2025-12-03Postdoctoral Fellow | Weizmann Institute of ScienceRehovot, Israel | 2023 – 2024Chiral Catalysis: Pioneered chirality induction in Ni-Au systems for the Hydrogen Evolution Reaction (HER). Achieved a 10% efficiency improvement for green fuel applications.1Advanced Characterization: Utilized TEM and XPS to correlate structural chirality with catalytic activity.Collaboration: Worked with international, multidisciplinary teams to demonstrate superior HER activity.Postdoctoral Fellow | IIT BombayMumbai, India | 2022 – 2023Magneto-Electric Effects: Investigated water electrolysis using $La_2FeMnO_6$, advancing multi-ferroic catalysts.1Mechanochemistry: Conducted shear-induced nucleation and exfoliation of nanomaterials for scalable synthesis.Ph.D. Researcher | IIT BombayMumbai, India | 2016 – 2022Thesis: Tailoring Transition Metal Perovskite Oxides via Low-Temperature Hydrothermal Routes.Key Achievement: Led hydrothermal synthesis of K-substituted $LaMnO_3$ perovskite for zinc-air batteries, resulting in 3 high-impact publications.1Mentorship: Trained 4 students and logged 500+ hours on characterization tools (FEG-TEM, SEM).Insight: Note the use of LaTeX syntax $La_2FeMnO_6$ for chemical formulas. Hugo can render this using MathJax if enabled in the theme config, allowing for professional scientific notation essential for a chemist.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publications/</guid>
+      <description>&lt;p&gt;title: &amp;ldquo;Publications&amp;quot;My research has resulted in 11 peer-reviewed articles in high-impact journals.Selected PublicationsNishad, H. S., Kotha, V., et al. (2024). Exchanging interlayer anions in NiFe-LDHs nanosphere enables superior battery-type storage for high-rate aqueous hybrid supercapacitors. J. Mater. Chem. A, 12(16), 9494-9507.(&lt;a href=&#34;https://doi.org/10.1039/D4TA00299G&#34;&gt;https://doi.org/10.1039/D4TA00299G&lt;/a&gt;) 1Gupta, S. P., Kotha, V., et al. (2024). Hydrated $WO_3 \cdot 0.33H_2O$ nanorod for excellent anode materials&amp;hellip; J. Power Sources, 604, 234500.(&lt;a href=&#34;https://doi.org/10.1016/j.jpowsour.2024.234500&#34;&gt;https://doi.org/10.1016/j.jpowsour.2024.234500&lt;/a&gt;) 1Kotha, V.*, Karajagi, I., et al. (2022). Potassium-substituted $LaMnO_3$ as a highly active and exceptionally stable electrocatalyst&amp;hellip; ACS Appl. Energy Mater., 5(6), 7297-7307.(&lt;a href=&#34;https://doi.org/10.1021/acsaem.2c00823&#34;&gt;https://doi.org/10.1021/acsaem.2c00823&lt;/a&gt;) 1In PreparationTitleTarget JournalStatusChiral-induced spin selectivity in electrochemical synthesisACS Energy FuelsWritingTemporally separated crystallization events in perovskite oxidesNanoscaleAnalysisFormatting Insight: We used a Markdown Table for the &amp;ldquo;In Preparation&amp;rdquo; papers. Tables are excellent for concise status updates. The syntax | :&amp;mdash; | defines a left-aligned column.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
