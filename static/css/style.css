@@ -1,0 +1,947 @@
+/* IMPORT FONTS: Fira Code (Headers) & Merriweather (Body) */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Merriweather:wght@300;400;700&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    /* Color Variables (Day Mode) */
+    --bg-color: #fdfdfd;
+    --text-color: #333;
+    --nav-bg: rgba(255, 255, 255, 0.98);
+    --card-bg: #fff;
+    --border-color: #eee;
+    --primary-color: #0a192f; /* Deep Perovskite Blue */
+    --accent-color: #d4af37;  /* Gold Catalyst Accent */
+    --shadow: rgba(0,0,0,0.05);
+}
+
+/* DARK MODE OVERRIDES */
+[data-theme="dark"] {
+    --bg-color: #020c1b;      /* Deepest Navy */
+    --text-color: #ccd6f6;    /* Soft Blue-White */
+    --nav-bg: rgba(10, 25, 47, 0.95);
+    --card-bg: #112240;       /* Lighter Navy for cards */
+    --border-color: #233554;
+    --primary-color: #64ffda; /* Teal/Cyan for headers in dark mode */
+    --accent-color: #64ffda;
+    --shadow: rgba(0,0,0,0.4);
+}
+
+body {
+    font-family: 'Merriweather', serif; /* BODY: Academic & Readable */
+    line-height: 1.8; /* Increased from 1.6 for better readability */
+    color: #333;
+    margin: 0;
+    padding-top: 90px;
+    background-color: #fdfdfd; /* Softer white */
+    
+    /* THE SCALE FIX */
+    font-size: 18px; /* Was 16px. This mimics the "Wix" feel. */
+}
+
+/* HEADINGS: Modern & Strong */
+h1, h2, h3, h4, h5, h6, nav a, .btn-download {
+    font-family: 'Roboto', sans-serif;
+    color: var(--primary-color);
+    margin-top: 1.5em;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    border-bottom: 2px solid var(--accent-color); /* Gold underline */
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: var(--accent-color);
+    color: #fff;
+}
+
+/* LAYOUT CONTAINER */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* UPDATED HERO with Background Image */
+.hero {
+    /* Linear Gradient overlays the Navy color on top of the image so text stays readable */
+    background: linear-gradient(rgba(10, 25, 47, 0.85), rgba(10, 25, 47, 0.9)), url('/images/hero-bg3.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 10px 20px; /* Taller padding for more impact */
+    text-align: center;
+    border-radius: 0 0 50% 50% / 40px; /* Elegant curve at the bottom */
+    margin-bottom: 60px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Ensure the text pops against the background */
+.hero h1 {
+    text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+.hero h1 {
+    color: var(--accent-color);
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.hero a {
+    color: #fff;
+    border-bottom: 1px dotted #fff;
+}
+
+/* IMAGES & FIGURES */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 20px 0;
+}
+
+/* PROJECT CARDS (For Lists) */
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+article {
+    background: var(--card-bg);
+    padding: 25px;
+    border-left: 5px solid var(--accent-color); /* Gold branding */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+/* NAVIGATION - Sleek Scientific Strip */
+nav {
+    background: rgba(255, 255, 255, 0.98);
+    /* Reduced vertical padding (was 15px) */
+    padding: 0 40px; 
+    height: 70px; /* Fixed slim height */
+    
+    /* Flexbox Magic: Splits Logo and Menu */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* Sticky Behavior */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box; /* Ensures padding doesn't expand width */
+    z-index: 9999;
+    
+    border-bottom: 1px solid #e0e0e0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(5px);
+}
+
+/* BRAND LOCKUP (Logo + Name) */
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between logo and name */
+    text-decoration: none;
+    border-bottom: none !important; /* No underline for the brand */
+}
+
+.nav-brand:hover {
+    background-color: transparent !important;
+    opacity: 0.8; /* Subtle fade on hover instead of gold background */
+}
+
+.brand-logo {
+    height: 45px; /* Slightly smaller to fit text balance */
+    width: auto;
+    margin: 0;
+}
+
+.brand-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem; /* Large enough to be readable */
+    font-weight: 700;  /* Bold */
+    color: #0a192f;    /* Navy Blue */
+    letter-spacing: 0.5px;
+    white-space: nowrap; /* Prevents name from breaking to two lines */
+}
+
+/* Mobile Fix: Shrink text slightly on phones */
+@media (max-width: 480px) {
+    .brand-text {
+        font-size: 1.1rem;
+    }
+    .brand-logo {
+        height: 35px;
+    }
+}
+
+/* The Menu List */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Horizontal list */
+    align-items: center;
+}
+
+nav li {
+    margin-left: 30px; /* Space between items */
+    margin-right: 0;
+}
+
+/* Links - Keeping your Gold Style */
+nav a {
+    color: #0a192f;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem; /* Slightly smaller font for elegance */
+    border-bottom: 2px solid transparent; /* Hidden until hover */
+    padding-bottom: 2px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #d4af37; /* Gold Text */
+    border-bottom: 2px solid #d4af37; /* Gold Line */
+    background-color: transparent; /* No background block, just clean text */
+}
+
+/* Mobile Responsiveness (Keeps it usable on phones) */
+@media (max-width: 768px) {
+    nav {
+        padding: 0 20px;
+        height: auto;
+        flex-direction: column;
+    }
+    nav ul {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav li {
+        margin: 5px 10px;
+    }
+}
+
+/* RESEARCH PAGE GRID SYSTEM */
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-left: 5px solid var(--accent-color); /* Gold branding */
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.project-card h2 a:hover {
+    color: var(--accent-color) !important;
+}
+
+/* FIX: Override Global Link Styles for Project Cards */
+.project-card a {
+    border-bottom: none !important; /* Remove underline from images */
+    display: block; /* Ensures links behave like blocks, not text */
+}
+
+/* Fix 1: Image Hover - Stop the Gold Background Strip */
+.project-card a:hover {
+    background-color: transparent !important; /* No Gold Background */
+    color: inherit !important;
+}
+
+/* Fix 2: Title Hover - Text turns Gold, but Background stays clear */
+.project-card h2 a:hover {
+    color: #d4af37 !important; /* Gold Text */
+    background-color: transparent !important; /* No Gold Background */
+}
+
+/* Fix 3: "Read Case Study" Button - Keep it clean */
+.project-card p a {
+    display: inline-block; /* Keep it text-like */
+}
+.project-card p a:hover {
+    color: #0a192f !important; /* Navy on hover */
+    background-color: transparent !important;
+}
+
+/* ZOOM EFFECT FOR CAPABILITY CARDS */
+.project-card:hover img {
+    transform: scale(1.1); /* Zooms in 10% on hover */
+}
+
+/* TIMELINE COMPONENT */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+/* The Vertical Line */
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px; /* Position of the line */
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #e0e0e0; /* Light grey line */
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 60px; /* Space for the line/marker */
+}
+
+/* The Gold Dots */
+.timeline-marker {
+    position: absolute;
+    left: 11px; /* Center on the line (20px left - 9px half-width) */
+    top: 5px;
+    width: 16px;
+    height: 16px;
+    background: #fff;
+    border: 3px solid #d4af37; /* Gold border */
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Hover Effect for Dots */
+.timeline-item:hover .timeline-marker {
+    background: #d4af37; /* Fills gold on hover */
+    transition: background 0.3s ease;
+}
+
+/* The Content Box */
+.timeline-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 4px solid #0a192f; /* Navy accent */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.timeline-content h3 {
+    margin-top: 0;
+    color: #0a192f;
+    font-size: 1.2rem;
+}
+
+.timeline-content h4 {
+    margin-top: 5px;
+    font-family: 'Merriweather', serif; /* Serif for institution name */
+    font-weight: normal;
+    color: #555;
+    font-size: 1rem;
+}
+
+.timeline-content .date {
+    display: inline-block;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.85rem;
+    color: #666;
+    background: #f4f4f9;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.timeline-content ul {
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+
+.timeline-content li {
+    margin-bottom: 5px;
+    font-size: 0.95rem;
+}
+
+/* TIMELINE LOGOS & LINKS */
+.institution-header {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+/* The clickable container */
+.institution-link {
+    display: flex; /* Aligns logo and text horizontally */
+    align-items: center; 
+    text-decoration: none !important; /* Removes default underline */
+    border-bottom: none !important; /* Removes gold border */
+    color: inherit; /* Keeps text grey/black */
+    transition: opacity 0.2s ease;
+}
+
+.institution-link:hover {
+    opacity: 0.7; /* Slight fade when you hover to show it's clickable */
+    background: transparent !important; /* Prevents gold background */
+}
+
+.timeline-logo {
+    height: 40px; 
+    width: auto;
+    margin-right: 15px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+
+.institution-link h4 {
+    margin: 0;
+    color: #555; /* Keeps the text professional grey */
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+}
+
+/* PROFESSIONAL PROFILE PICTURE */
+.profile-circle {
+    width: 200px;
+    height: 200px;
+    object-fit: cover; /* Ensures photo isn't squashed */
+    border-radius: 50%; /* Perfect Circle */
+    
+    /* The Gold Halo */
+    border: 4px solid #fff; /* White gap */
+    outline: 3px solid #d4af37; /* Gold outer ring */
+    
+    /* Placement */
+    float: left;
+    margin-right: 35px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    
+    /* Visual Depth */
+    box-shadow: 0 8px 20px rgba(10, 25, 47, 0.15); /* Soft Navy Shadow */
+    transition: transform 0.3s ease;
+}
+
+.profile-circle:hover {
+    transform: scale(1.05);
+}
+
+/* Mobile Fix */
+@media (max-width: 768px) {
+    .profile-circle {
+        float: none;
+        margin: 0 auto 25px auto;
+        display: block;
+    }
+}
+
+/* CONTACT PAGE - Split Layout */
+.contact-split {
+    display: flex;
+    flex-wrap: wrap; /* Stacks on mobile */
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05); /* Extremely subtle lift */
+    margin-top: 20px;
+}
+
+.contact-text-area {
+    flex: 1 1 60%; /* Takes up 60% of width */
+    padding: 40px;
+    color: #333; /* Standard dark text */
+}
+
+.contact-image-area {
+    flex: 1 1 40%; /* Takes up 40% of width */
+    background-image: url('/images/bg-pattern.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 300px; /* Ensures image shows even if empty */
+}
+
+/* Mobile: Stack them */
+@media (max-width: 768px) {
+    .contact-split {
+        flex-direction: column-reverse; /* Image on top on mobile */
+    }
+    .contact-image-area {
+        height: 200px;
+        flex: none;
+    }
+}
+
+/* COMPACT FOOTER STYLES */
+footer {
+    background: #f9f9f9;
+    padding: 30px 0; /* Reduced padding */
+    text-align: center;
+    border-top: 1px solid #eee;
+    margin-top: 50px;
+}
+
+.social-links {
+    display: flex;           /* Forces horizontal alignment */
+    justify-content: center; /* Centers them */
+    gap: 25px;               /* Space between links */
+    margin-bottom: 15px;
+}
+
+.social-links a {
+    color: #555;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-bottom: none; /* Removes the gold underline for cleanliness */
+}
+
+.social-links a:hover {
+    color: #0a192f; /* Navy on hover */
+    background: transparent;
+}
+
+footer p {
+    font-size: 0.8rem;
+    color: #888;
+    margin: 0;
+}
+
+/* PUBLICATION LIST STYLES */
+.pub-card {
+    display: flex;
+    flex-direction: row; /* Image Left, Content Right */
+    gap: 25px;
+    margin-bottom: 30px;
+    background: var(--card-bg);
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    box-shadow: 0 2px 5px var(--shadow);
+    align-items: flex-start; /* Aligns content to top */
+}
+
+.pub-image {
+    flex: 0 0 160px; /* Fixed Width for Image */
+    width: 160px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+    border: 1px solid var(--border-color);
+    background: #f9f9f9;
+    padding: 5px;
+}
+
+/* THE FIX: Vertical Stacking for Text */
+.pub-content {
+    flex: 1; /* Take remaining width */
+    display: flex;
+    flex-direction: column; /* Forces Title -> Author -> Journal -> Links to stack */
+    gap: 8px; /* Space between lines */
+}
+
+.pub-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    line-height: 1.4;
+}
+
+.pub-author {
+    font-style: italic;
+    color: #555;
+    font-size: 1rem;
+}
+
+.pub-journal {
+    color: var(--accent-color);
+    font-weight: 500;
+}
+
+/* LINKS ROW */
+.pub-actions {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px; /* Space between buttons */
+}
+
+/* MOBILE: Stack everything vertically */
+@media (max-width: 768px) {
+    .pub-card {
+        flex-direction: column;
+        text-align: center;
+    }
+    .pub-image {
+        width: 100%;
+        max-width: 250px;
+        margin: 0 auto 15px auto;
+    }
+    .pub-actions {
+        justify-content: center;
+    }
+}
+
+/* SMART CAROUSEL CONTAINER */
+.carousel-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* The Scrolling Track */
+.carousel-track {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 5px; /* Space for shadow */
+    scroll-behavior: smooth; /* Smooth gliding */
+    
+    /* Hide Scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE */
+}
+.carousel-track::-webkit-scrollbar { 
+    display: none; /* Chrome/Safari */
+}
+
+/* NAVIGATION BUTTONS */
+.nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: #0a192f;
+    cursor: pointer;
+    z-index: 10;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+}
+
+.nav-btn:hover {
+    background: #0a192f;
+    color: #d4af37; /* Gold Arrow */
+    border-color: #0a192f;
+}
+
+.nav-btn.left { left: -20px; }
+.nav-btn.right { right: -20px; }
+
+/* CLICKABLE CARD DESIGN (Updated to be an <a> tag) */
+a.scroll-card {
+    display: block; /* Makes the link behave like a box */
+    text-decoration: none; /* Kills default underline */
+    color: inherit; /* Inherits text color */
+    
+    flex: 0 0 450px; /* Wider card = Bigger image */
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+a.scroll-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-color: #d4af37; /* Gold border on hover */
+}
+
+/* Image Area */
+.scroll-card-img-container {
+    width: 100%;
+    height: 220px;
+    background: #f8f9fa;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.scroll-card-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ensures full abstract is visible */
+    padding: 10px; /* Breathing room */
+}
+
+.scroll-card-text {
+    padding: 20px;
+}
+
+/* Mobile Fix: Hide buttons, allow swipe */
+@media (max-width: 768px) {
+    .nav-btn { display: none; }
+    a.scroll-card { flex: 0 0 300px; } /* Smaller cards on phone */
+}
+
+/* BACK TO TOP BUTTON */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #d4af37; /* Gold */
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%; /* Circle */
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background 0.3s;
+}
+
+#myBtn:hover {
+    background-color: #0a192f; /* Navy on hover */
+}
+
+/* MOBILE TABLE PROTECTION */
+table {
+    display: block;
+    width: 100%;
+    overflow-x: auto; /* Allows table to scroll sideways on phone */
+    -webkit-overflow-scrolling: touch;
+    border-collapse: collapse;
+}
+
+/* ADVANCED FOOTER LAYOUT */
+footer {
+    background: #f9f9f9;
+    padding: 50px 0;
+    border-top: 1px solid #e0e0e0;
+    margin-top: 80px;
+}
+
+.footer-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    gap: 40px;
+}
+
+.footer-bio {
+    flex: 1 1 400px; /* Takes up left side */
+    text-align: left;
+}
+
+.footer-bio h4 {
+    color: #0a192f;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.footer-bio p {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+.footer-social {
+    flex: 1 1 300px; /* Takes up right side */
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    font-size: 0.85rem;
+    color: #999;
+    margin: 0;
+}
+
+/* Mobile: Stack them nicely */
+@media (max-width: 768px) {
+    .footer-container { flex-direction: column; text-align: center; }
+    .footer-bio, .footer-social { text-align: center; }
+    .footer-bio p { margin: 0 auto; }
+    .social-links { justify-content: center; }
+}
+
+/* --- LIGHTBOX (MODAL) STYLES --- */
+.lightbox {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 10000; /* Sit on top of everything */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(10, 25, 47, 0.95); /* Deep Navy backdrop, 95% opacity */
+    backdrop-filter: blur(5px);
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.3s;
+    cursor: zoom-out;
+}
+
+.lightbox-content {
+    position: relative;
+    max-width: 90%;
+    max-height: 90%;
+    text-align: center;
+    cursor: default;
+}
+
+#lightbox-img {
+    max-width: 100%;
+    max-height: 80vh; /* Leave room for text */
+    border-radius: 4px;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.5);
+    border: 2px solid #fff;
+    object-fit: contain;
+}
+
+#lightbox-caption {
+    margin-top: 15px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    background: rgba(0,0,0,0.6);
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 4px;
+    max-width: 800px;
+}
+
+/* Close Button */
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    z-index: 10001;
+}
+
+.close-btn:hover {
+    color: #d4af37; /* Gold on hover */
+}
+
+/* Animation */
+@keyframes fadeIn {
+    from {opacity: 0}
+    to {opacity: 1}
+}
+
+/* --- NEW FEATURES (ADD TO BOTTOM) --- */
+
+/* 1. Dark Mode Toggle Switch */
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.theme-switch {
+    display: inline-block;
+    height: 24px;
+    position: relative;
+    width: 48px;
+}
+.theme-switch input { display: none; }
+.slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+    border-radius: 34px;
+}
+.slider:before {
+    background-color: white;
+    bottom: 4px;
+    content: "";
+    height: 16px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 16px;
+    border-radius: 50%;
+}
+input:checked + .slider { background-color: var(--accent-color); }
+input:checked + .slider:before { transform: translateX(24px); }
+
+/* 2. Citation Buttons & Badges */
+.pub-actions {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn-cite {
+    background: transparent;
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color) !important;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    transition: 0.2s;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-cite:hover {
+    background: var(--accent-color);
+    color: #fff !important;
+}
+
+/* 3. Dark Mode Application (Critical Step) */
+/* This forces your existing elements to use variables instead of hardcoded colors */
+body { background-color: var(--bg-color); color: var(--text-color); transition: background 0.3s; }
+nav { background: var(--nav-bg); border-bottom: 1px solid var(--border-color); }
+.project-card, .pub-card, .timeline-content { background: var(--card-bg); border-color: var(--border-color); }
+h1, h2, h3, h4 { color: var(--primary-color); }
+a { color: var(--accent-color); }
