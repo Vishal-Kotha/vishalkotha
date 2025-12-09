@@ -23,6 +23,9 @@
     <loc>http://localhost:1313/gallery/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/experience/</loc>
+    <lastmod>2024-01-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/capabilities/</loc>
     <lastmod>2024-01-01T00:00:00+00:00</lastmod>
   </url><url>
@@ -76,12 +79,6 @@
   </url><url>
     <loc>http://localhost:1313/tags/simulation/</loc>
     <lastmod>2016-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/dr.-vishal-kotha-_-materials-chemist-_-phd-iit-bombay-_-postdoc-wis-weizmann/</loc>
-  </url><url>
-    <loc>http://localhost:1313/dr.-vishal-kotha-_-materials-chemist-_-phd-iit-bombay-_-postdoc-wis-weizmann_files/</loc>
-  </url><url>
-    <loc>http://localhost:1313/experience/</loc>
   </url><url>
     <loc>http://localhost:1313/404/</loc>
   </url><url>
