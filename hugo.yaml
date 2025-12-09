@@ -1,4 +1,4 @@
-baseURL: "https://vishalkotha.com" # Change this to your actual domain later
+baseURL: "/" # Change this to your actual domain later
 languageCode: "en-us"
 title: "Dr. Vishal Kotha | Materials Scientist"
 theme: "PaperMod"

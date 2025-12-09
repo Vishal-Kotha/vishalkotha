@@ -2,55 +2,55 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Vishal Kotha | Materials Scientist on Dr. Vishal Kotha | Materials Scientist</title>
-    <link>http://localhost:1313/</link>
+    <link>//localhost:1313/</link>
     <description>Recent content in Vishal Kotha | Materials Scientist on Dr. Vishal Kotha | Materials Scientist</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Multifunctional Perovskites: From Batteries to Green Pharma</title>
-      <link>http://localhost:1313/research/multifunctional-perovskites-from-batteries-to-green-pharma/</link>
+      <link>//localhost:1313/research/multifunctional-perovskites-from-batteries-to-green-pharma/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/multifunctional-perovskites-from-batteries-to-green-pharma/</guid>
+      <guid>//localhost:1313/research/multifunctional-perovskites-from-batteries-to-green-pharma/</guid>
       <description>Tailoring K-substituted $LaMnO_3$ for high-stability Zinc-Air batteries and selective organocatalysis.</description>
     </item>
     <item>
       <title>Green Hydrogen &amp; Nanodevice Fabrication</title>
-      <link>http://localhost:1313/research/green-hydrogen-nanodevice-fabrication/</link>
+      <link>//localhost:1313/research/green-hydrogen-nanodevice-fabrication/</link>
       <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/green-hydrogen-nanodevice-fabrication/</guid>
+      <guid>//localhost:1313/research/green-hydrogen-nanodevice-fabrication/</guid>
       <description>From Chiral Ni-Au catalysts to Single Nanorod devices: Bridging synthesis with device engineering.</description>
     </item>
     <item>
       <title>Photocatalysis: Chemically Hard Doping in ZnO</title>
-      <link>http://localhost:1313/research/photocatalysis-chemically-hard-doping-in-zno/</link>
+      <link>//localhost:1313/research/photocatalysis-chemically-hard-doping-in-zno/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/photocatalysis-chemically-hard-doping-in-zno/</guid>
+      <guid>//localhost:1313/research/photocatalysis-chemically-hard-doping-in-zno/</guid>
       <description>Enhancing dye degradation efficiency by 91% using Al-doped ZnO nanostructures.</description>
     </item>
     <item>
       <title>Computational Materials Science: Boron Carbide</title>
-      <link>http://localhost:1313/research/computational-materials-science-boron-carbide/</link>
+      <link>//localhost:1313/research/computational-materials-science-boron-carbide/</link>
       <pubDate>Wed, 01 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/research/computational-materials-science-boron-carbide/</guid>
+      <guid>//localhost:1313/research/computational-materials-science-boron-carbide/</guid>
       <description>Ab-initio DFT calculations on the failure mechanisms of bulletproof armor.</description>
     </item>
     <item>
       <title>About Dr. Vishal Kotha</title>
-      <link>http://localhost:1313/about/</link>
+      <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>&lt;img src=&#34;http://localhost:1313/images/vishal-profile.jpg&#34; class=&#34;profile-circle&#34; alt=&#34;Dr. Vishal Kotha&#34;&gt;
+      <guid>//localhost:1313/about/</guid>
+      <description>&lt;img src=&#34;//localhost:1313/images/vishal-profile.jpg&#34; class=&#34;profile-circle&#34; alt=&#34;Dr. Vishal Kotha&#34;&gt;
 &lt;p&gt;I am a &lt;strong&gt;Materials Scientist&lt;/strong&gt; and &lt;strong&gt;Data Engineer&lt;/strong&gt; dedicated to bridging the gap between atomic-level design and real-world energy applications. With a Ph.D. from &lt;strong&gt;IIT Bombay&lt;/strong&gt; and postdoctoral experience at the &lt;strong&gt;Weizmann Institute of Science&lt;/strong&gt;, I specialize in synthesizing transition metal perovskite oxides for green hydrogen and next-gen batteries.&lt;/p&gt;
 &lt;h3 id=&#34;my-philosophy-conscious-science&#34;&gt;My Philosophy: &amp;ldquo;Conscious Science&amp;rdquo;&lt;/h3&gt;
 &lt;p&gt;My approach to research is grounded in the belief that &lt;strong&gt;precision in the laboratory begins with precision of the mind.&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Let&#39;s Collaborate</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>//localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>//localhost:1313/contact/</guid>
       <description>&lt;div class=&#34;contact-split&#34;&gt;
     &lt;div class=&#34;contact-text-area&#34;&gt;
         &lt;h2 style=&#34;color: #0a192f; margin-top: 0;&#34;&gt;Open for Innovation&lt;/h2&gt;
@@ -67,7 +67,7 @@
             &lt;a href=&#34;https://orcid.org/0000-0002-1499-4646&#34; target=&#34;_blank&#34; style=&#34;color: #0a192f; font-weight: bold;&#34;&gt;ORCID ↗&lt;/a&gt;
         &lt;/p&gt;
         &lt;div style=&#34;margin-top: 35px;&#34;&gt;
-            &lt;a href=&#34;http://localhost:1313/files/CV-Vishal_Kotha.pdf&#34; style=&#34;background: #0a192f; color: #fff !important; padding: 12px 25px; border-radius: 4px; text-decoration: none; font-size: 0.9rem;&#34;&gt;
+            &lt;a href=&#34;//localhost:1313/files/CV-Vishal_Kotha.pdf&#34; style=&#34;background: #0a192f; color: #fff !important; padding: 12px 25px; border-radius: 4px; text-decoration: none; font-size: 0.9rem;&#34;&gt;
                 Download Full Resume
             &lt;/a&gt;
         &lt;/div&gt;
@@ -78,62 +78,62 @@
     </item>
     <item>
       <title>Life in Science</title>
-      <link>http://localhost:1313/gallery/</link>
+      <link>//localhost:1313/gallery/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/gallery/</guid>
+      <guid>//localhost:1313/gallery/</guid>
       <description>&lt;p&gt;Science is not just about data; it is about people, teaching, and exploration.&lt;/p&gt;
 &lt;div class=&#34;project-grid&#34;&gt;
     &lt;article class=&#34;project-card&#34; style=&#34;padding: 0; border: none;&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/talk-kuu.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover; object-position: top;&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/talk-kuu.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover; object-position: top;&#34;&gt;
         &lt;div style=&#34;padding: 15px; text-align: center;&#34;&gt;
             &lt;strong&gt;Invited Speaker&lt;/strong&gt;&lt;br&gt;
             &lt;span style=&#34;color: #666; font-size: 0.9rem;&#34;&gt;Delivering a lecture on &#34;Future Materials&#34; to PG students at Khallikote Unitary University (KUU).&lt;/span&gt;
         &lt;/div&gt;
     &lt;/article&gt;
     &lt;article class=&#34;project-card&#34; style=&#34;padding: 0; border: none;&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/chem-magic.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover;&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/chem-magic.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover;&#34;&gt;
         &lt;div style=&#34;padding: 15px; text-align: center;&#34;&gt;
             &lt;strong&gt;Science Communication&lt;/strong&gt;&lt;br&gt;
             &lt;span style=&#34;color: #666; font-size: 0.9rem;&#34;&gt;Demonstrating &#34;Chemistry Magic&#34; to the public at IIT Bombay Techfest.&lt;/span&gt;
         &lt;/div&gt;
     &lt;/article&gt;
     &lt;article class=&#34;project-card&#34; style=&#34;padding: 0; border: none;&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/conf-organizer.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover;&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/conf-organizer.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover;&#34;&gt;
         &lt;div style=&#34;padding: 15px; text-align: center;&#34;&gt;
             &lt;strong&gt;Conference Organization&lt;/strong&gt;&lt;br&gt;
             &lt;span style=&#34;color: #666; font-size: 0.9rem;&#34;&gt;Organizing committee member for the APCTCC-8 Conference at IIT Bombay.&lt;/span&gt;
         &lt;/div&gt;
     &lt;/article&gt;
     &lt;article class=&#34;project-card&#34; style=&#34;padding: 0; border: none;&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/student-mentorship.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover;&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/student-mentorship.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover;&#34;&gt;
         &lt;div style=&#34;padding: 15px; text-align: center;&#34;&gt;
             &lt;strong&gt;Mentorship&lt;/strong&gt;&lt;br&gt;
             &lt;span style=&#34;color: #666; font-size: 0.9rem;&#34;&gt;Guiding a Master&#39;s student during their poster presentation.&lt;/span&gt;
         &lt;/div&gt;
     &lt;/article&gt;
     &lt;article class=&#34;project-card&#34; style=&#34;padding: 0; border: none;&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/installing-sem.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover;&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/installing-sem.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover;&#34;&gt;
         &lt;div style=&#34;padding: 15px; text-align: center;&#34;&gt;
             &lt;strong&gt;Technical Leadership&lt;/strong&gt;&lt;br&gt;
             &lt;span style=&#34;color: #666; font-size: 0.9rem;&#34;&gt;Leading the installation of a ZEISS SEM system.&lt;/span&gt;
         &lt;/div&gt;
     &lt;/article&gt;
     &lt;article class=&#34;project-card&#34; style=&#34;padding: 0; border: none;&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/wis-entry.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover;&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/wis-entry.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover;&#34;&gt;
         &lt;div style=&#34;padding: 15px; text-align: center;&#34;&gt;
             &lt;strong&gt;Global Research&lt;/strong&gt;&lt;br&gt;
             &lt;span style=&#34;color: #666; font-size: 0.9rem;&#34;&gt;Beginning my Postdoctoral journey at Weizmann Institute, Israel.&lt;/span&gt;
         &lt;/div&gt;
     &lt;/article&gt;
     &lt;article class=&#34;project-card&#34; style=&#34;padding: 0; border: none;&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/phd-convocation.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover; object-position: top;&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/phd-convocation.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover; object-position: top;&#34;&gt;
         &lt;div style=&#34;padding: 15px; text-align: center;&#34;&gt;
             &lt;strong&gt;Doctoral Convocation&lt;/strong&gt;&lt;br&gt;
             &lt;span style=&#34;color: #666; font-size: 0.9rem;&#34;&gt;Receiving Ph.D. degree from Prof. M. Ravikanth (HOD Chemistry, IITB).&lt;/span&gt;
         &lt;/div&gt;
     &lt;/article&gt;
     &lt;article class=&#34;project-card&#34; style=&#34;padding: 0; border: none;&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/msc-dept.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover;&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/msc-dept.jpg&#34; style=&#34;width: 100%; height: 250px; object-fit: cover;&#34;&gt;
         &lt;div style=&#34;padding: 15px; text-align: center;&#34;&gt;
             &lt;strong&gt;Roots&lt;/strong&gt;&lt;br&gt;
             &lt;span style=&#34;color: #666; font-size: 0.9rem;&#34;&gt;Department of Chemistry, Pondicherry University.&lt;/span&gt;
@@ -143,9 +143,9 @@
     </item>
     <item>
       <title>Professional Journey</title>
-      <link>http://localhost:1313/experience/</link>
+      <link>//localhost:1313/experience/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/experience/</guid>
+      <guid>//localhost:1313/experience/</guid>
       <description>&lt;p&gt;A timeline of my scientific research, leadership roles, and personal development.&lt;/p&gt;
 &lt;div class=&#34;timeline&#34;&gt;
     &lt;div class=&#34;timeline-item&#34;&gt;
@@ -155,7 +155,7 @@
             &lt;h3&gt;Volunteer &amp; Educator&lt;/h3&gt;
             &lt;div class=&#34;institution-header&#34;&gt;
                 &lt;a href=&#34;https://isha.sadhguru.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; class=&#34;institution-link&#34;&gt;
-                    &lt;img src=&#34;http://localhost:1313/images/logo-isha.png&#34; alt=&#34;Isha Foundation&#34; class=&#34;timeline-logo&#34;&gt;
+                    &lt;img src=&#34;//localhost:1313/images/logo-isha.png&#34; alt=&#34;Isha Foundation&#34; class=&#34;timeline-logo&#34;&gt;
                     &lt;h4&gt;Isha Foundation | Tamil Nadu, India&lt;/h4&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
@@ -173,7 +173,7 @@
             &lt;h3&gt;Postdoctoral Fellow&lt;/h3&gt;
             &lt;div class=&#34;institution-header&#34;&gt;
                 &lt;a href=&#34;https://www.weizmann.ac.il/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34; class=&#34;institution-link&#34;&gt;
-                    &lt;img src=&#34;http://localhost:1313/images/logo-weizmann.png&#34; alt=&#34;Weizmann Institute&#34; class=&#34;timeline-logo&#34;&gt;
+                    &lt;img src=&#34;//localhost:1313/images/logo-weizmann.png&#34; alt=&#34;Weizmann Institute&#34; class=&#34;timeline-logo&#34;&gt;
                     &lt;h4&gt;Weizmann Institute of Science | Israel&lt;/h4&gt;
                 &lt;/a&gt;
             &lt;/div&gt;
@@ -181,15 +181,15 @@
     </item>
     <item>
       <title>Technical Capabilities</title>
-      <link>http://localhost:1313/capabilities/</link>
+      <link>//localhost:1313/capabilities/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/capabilities/</guid>
+      <guid>//localhost:1313/capabilities/</guid>
       <description>&lt;p&gt;My expertise spans the full materials lifecycle, bridging computational design with experimental realization.&lt;/p&gt;
 &lt;h2 id=&#34;-instrumentation-proficiency&#34;&gt;🔬 Instrumentation Proficiency&lt;/h2&gt;
 &lt;div class=&#34;project-grid&#34;&gt;
     &lt;article class=&#34;project-card&#34; style=&#34;padding: 0; overflow: hidden;&#34;&gt;
         &lt;div style=&#34;width: 100%; height: 220px; overflow: hidden; background: #fff;&#34;&gt;
-            &lt;img src=&#34;http://localhost:1313/images/icon-microscopy.jpg&#34; alt=&#34;Atomic Resolution STEM&#34; 
+            &lt;img src=&#34;//localhost:1313/images/icon-microscopy.jpg&#34; alt=&#34;Atomic Resolution STEM&#34; 
                  style=&#34;width: 100%; height: 100%; object-fit: contain; margin: 0; transition: transform 0.5s ease;&#34;&gt;
         &lt;/div&gt;
         &lt;div style=&#34;padding: 20px; text-align: center;&#34;&gt;
@@ -202,7 +202,7 @@
     &lt;/article&gt;
     &lt;article class=&#34;project-card&#34; style=&#34;padding: 0; overflow: hidden;&#34;&gt;
         &lt;div style=&#34;width: 100%; height: 220px; overflow: hidden; background: #fff;&#34;&gt;
-            &lt;img src=&#34;http://localhost:1313/images/icon-spectroscopy.jpg&#34; alt=&#34;XPS Spectra Data&#34; 
+            &lt;img src=&#34;//localhost:1313/images/icon-spectroscopy.jpg&#34; alt=&#34;XPS Spectra Data&#34; 
                  style=&#34;width: 100%; height: 100%; object-fit: contain; margin: 0; transition: transform 0.5s ease;&#34;&gt;
         &lt;/div&gt;
         &lt;div style=&#34;padding: 20px; text-align: center;&#34;&gt;
@@ -211,23 +211,23 @@
     </item>
     <item>
       <title>404: Page Not Found</title>
-      <link>http://localhost:1313/404/</link>
+      <link>//localhost:1313/404/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/404/</guid>
+      <guid>//localhost:1313/404/</guid>
       <description>&lt;h3 id=&#34;the-requested-page-is-unavailable&#34;&gt;The Requested Page is Unavailable.&lt;/h3&gt;
 &lt;p&gt;It seems you have hit a broken link. Please navigate back to my research or home.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/&#34;&gt;← Return Home&lt;/a&gt; | &lt;a href=&#34;http://localhost:1313/research/&#34;&gt;View Research&lt;/a&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;//localhost:1313/&#34;&gt;← Return Home&lt;/a&gt; | &lt;a href=&#34;//localhost:1313/research/&#34;&gt;View Research&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Publications</title>
-      <link>http://localhost:1313/publications/</link>
+      <link>//localhost:1313/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publications/</guid>
+      <guid>//localhost:1313/publications/</guid>
       <description>&lt;p&gt;A selected list of peer-reviewed articles focusing on &lt;strong&gt;Perovskites&lt;/strong&gt;, &lt;strong&gt;Green Hydrogen&lt;/strong&gt;, and &lt;strong&gt;Energy Storage&lt;/strong&gt;.&lt;/p&gt;
 &lt;div style=&#34;max-width: 900px; margin: 0 auto;&#34;&gt;
     &lt;h2 style=&#34;border-bottom: 2px solid #d4af37; padding-bottom: 10px; margin-top: 50px;&#34;&gt;2024&lt;/h2&gt;
     &lt;div class=&#34;pub-card&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/abs-nife.jpg&#34; class=&#34;pub-image&#34; alt=&#34;NiFe LDH Abstract&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/abs-nife.jpg&#34; class=&#34;pub-image&#34; alt=&#34;NiFe LDH Abstract&#34;&gt;
         &lt;div class=&#34;pub-content&#34;&gt;
             &lt;div class=&#34;pub-title&#34;&gt;
                 1. Exchanging interlayer anions in NiFe-LDHs nanosphere enables superior battery-type storage for high-rate aqueous hybrid supercapacitors.
@@ -246,7 +246,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;pub-card&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/abs-wo3.jpg&#34; class=&#34;pub-image&#34; alt=&#34;WO3 Nanorods Abstract&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/abs-wo3.jpg&#34; class=&#34;pub-image&#34; alt=&#34;WO3 Nanorods Abstract&#34;&gt;
         &lt;div class=&#34;pub-content&#34;&gt;
             &lt;div class=&#34;pub-title&#34;&gt;
                 2. Hydrated $WO_3 \cdot 0.33H_2O$ nanorod for excellent anode materials enables high performance and long-cycle stability for aqueous Zn-ion batteries.
@@ -265,7 +265,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;pub-card&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/abs-sodium wo3.jpg&#34; class=&#34;pub-image&#34; alt=&#34;Sodium WO3 Abstract&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/abs-sodium wo3.jpg&#34; class=&#34;pub-image&#34; alt=&#34;Sodium WO3 Abstract&#34;&gt;
         &lt;div class=&#34;pub-content&#34;&gt;
             &lt;div class=&#34;pub-title&#34;&gt;
                 3. Sodium-substituted tungsten oxide nanoflowers: An efficient electrode enhancing the pseudocapacitive storage in aqueous asymmetric supercapacitors.
@@ -285,7 +285,7 @@
     &lt;/div&gt;
     &lt;h2 style=&#34;border-bottom: 2px solid #d4af37; padding-bottom: 10px; margin-top: 50px;&#34;&gt;2022&lt;/h2&gt;
     &lt;div class=&#34;pub-card&#34; style=&#34;border-left: 5px solid #d4af37;&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/abs-lkmo-battery.gif&#34; class=&#34;pub-image&#34; alt=&#34;LaMnO3 Battery Abstract&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/abs-lkmo-battery.gif&#34; class=&#34;pub-image&#34; alt=&#34;LaMnO3 Battery Abstract&#34;&gt;
         &lt;div class=&#34;pub-content&#34;&gt;
             &lt;div class=&#34;pub-title&#34;&gt;
                 4. Potassium-substituted $LaMnO_3$ as a highly active and exceptionally stable electrocatalyst toward bifunctional oxygen reduction and oxygen evolution reactions.
@@ -304,7 +304,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;pub-card&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/abs-lkmo-catalysis.gif&#34; class=&#34;pub-image&#34; alt=&#34;LaMnO3 Catalysis Abstract&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/abs-lkmo-catalysis.gif&#34; class=&#34;pub-image&#34; alt=&#34;LaMnO3 Catalysis Abstract&#34;&gt;
         &lt;div class=&#34;pub-content&#34;&gt;
             &lt;div class=&#34;pub-title&#34;&gt;
                 5. Importance of K substitution in $LaMnO_3$ nanostructures for the selective reduction of $\alpha,\beta$-unsaturated carbonyl compounds and nitroarenes.
@@ -323,7 +323,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;pub-card&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/abs-zno.png&#34; class=&#34;pub-image&#34; alt=&#34;ZnO Abstract&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/abs-zno.png&#34; class=&#34;pub-image&#34; alt=&#34;ZnO Abstract&#34;&gt;
         &lt;div class=&#34;pub-content&#34;&gt;
             &lt;div class=&#34;pub-title&#34;&gt;
                 6. Doping with chemically hard elements to improve photocatalytic properties of ZnO nanostructures.
@@ -342,7 +342,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;pub-card&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/abs-porphyrin.jpg&#34; class=&#34;pub-image&#34; alt=&#34;Porphyrin Abstract&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/abs-porphyrin.jpg&#34; class=&#34;pub-image&#34; alt=&#34;Porphyrin Abstract&#34;&gt;
         &lt;div class=&#34;pub-content&#34;&gt;
             &lt;div class=&#34;pub-title&#34;&gt;
                 7. 1D alignment of Co(II) metalated porphyrin-naphthalimide based self-assembled nanowires for photocatalytic hydrogen evolution.
@@ -361,7 +361,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;pub-card&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/abs-WO3 nanoplates.jpg&#34; class=&#34;pub-image&#34; alt=&#34;WO3 Nanoplates Abstract&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/abs-WO3 nanoplates.jpg&#34; class=&#34;pub-image&#34; alt=&#34;WO3 Nanoplates Abstract&#34;&gt;
         &lt;div class=&#34;pub-content&#34;&gt;
             &lt;div class=&#34;pub-title&#34;&gt;
                 8. Enhanced van-der-Waals separation in hydrated tungsten oxide nanoplates enables superior pseudocapacitive charge storage.
@@ -381,7 +381,7 @@
     &lt;/div&gt;
     &lt;h2 style=&#34;border-bottom: 2px solid #d4af37; padding-bottom: 10px; margin-top: 50px;&#34;&gt;2021 &amp; Prior&lt;/h2&gt;
     &lt;div class=&#34;pub-card&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/abs-bimetallic thiolates.jpg&#34; class=&#34;pub-image&#34; alt=&#34;Bimetallic Thiolates Abstract&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/abs-bimetallic thiolates.jpg&#34; class=&#34;pub-image&#34; alt=&#34;Bimetallic Thiolates Abstract&#34;&gt;
         &lt;div class=&#34;pub-content&#34;&gt;
             &lt;div class=&#34;pub-title&#34;&gt;
                 9. Lamellar bimetallic thiolates: Synthesis, characterization, and their utilization for the preparation of bimetallic chalcogenide nanocrystals.
@@ -400,7 +400,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;pub-card&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/abs-bismuth sulphoiodide.jpg&#34; class=&#34;pub-image&#34; alt=&#34;Bismuth Sulphoiodide Abstract&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/abs-bismuth sulphoiodide.jpg&#34; class=&#34;pub-image&#34; alt=&#34;Bismuth Sulphoiodide Abstract&#34;&gt;
         &lt;div class=&#34;pub-content&#34;&gt;
             &lt;div class=&#34;pub-title&#34;&gt;
                 10. Synthesis of bismuth sulphoiodide thin films from single precursor solution.
@@ -419,7 +419,7 @@
         &lt;/div&gt;
     &lt;/div&gt;
     &lt;div class=&#34;pub-card&#34;&gt;
-        &lt;img src=&#34;http://localhost:1313/images/abs-triphenylamine.gif&#34; class=&#34;pub-image&#34; alt=&#34;Triphenylamine Abstract&#34;&gt;
+        &lt;img src=&#34;//localhost:1313/images/abs-triphenylamine.gif&#34; class=&#34;pub-image&#34; alt=&#34;Triphenylamine Abstract&#34;&gt;
         &lt;div class=&#34;pub-content&#34;&gt;
             &lt;div class=&#34;pub-title&#34;&gt;
                 11. Photobleaching of triphenylamine-phthalocyanine entails mixed valence-state triggered self-assembled nanospheres.
