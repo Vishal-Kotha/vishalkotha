@@ -3,7 +3,10 @@ title: "Green Hydrogen & Nanodevice Fabrication"
 date: 2023-04-01
 description: "From Chiral Ni-Au catalysts to Single Nanorod devices: Bridging synthesis with device engineering."
 tags: ["Green Hydrogen", "Nanofabrication", "Spintronics", "Lithography"]
-image: "/images/device-6probe.jpg"
+cover:
+    image: "/images/device-6probe.jpg"
+    alt: "Six probe device"
+    relative: false
 weight: 2
 ---
 

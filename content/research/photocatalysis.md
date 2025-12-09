@@ -3,7 +3,10 @@ title: "Photocatalysis: Chemically Hard Doping in ZnO"
 date: 2022-09-01
 description: "Enhancing dye degradation efficiency by 91% using Al-doped ZnO nanostructures."
 tags: ["Photocatalysis", "Water Purification", "Semiconductors"]
-image: "/images/abs-zno.png" 
+cover:
+    image: "/images/abs-zno.png" 
+    alt: "ZnO Photocatalysis"
+    relative: false
 weight: 3
 ---
 

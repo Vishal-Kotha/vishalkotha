@@ -3,7 +3,10 @@ title: "Computational Materials Science: Boron Carbide"
 date: 2016-06-01
 description: "Ab-initio DFT calculations on the failure mechanisms of bulletproof armor."
 tags: ["DFT", "Python", "Simulation"]
-image: "/images/boron-carbide.jpg"
+cover:
+    image: "/images/boron-carbide.jpg"
+    alt: "Boron Carbide"
+    relative: false
 weight: 4
 ---
 

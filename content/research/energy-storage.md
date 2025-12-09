@@ -3,7 +3,10 @@ title: "Multifunctional Perovskites: From Batteries to Green Pharma"
 date: 2022-08-01
 description: "Tailoring K-substituted $LaMnO_3$ for high-stability Zinc-Air batteries and selective organocatalysis."
 tags: ["Batteries", "Electrochemistry", "Perovskites", "Hydrothermal Synthesis"]
-image: "/images/battery-schematic.jpg"
+cover:
+    image: "/images/battery-schematic.jpg"
+    alt: "Battery Schematic"
+    relative: false
 weight: 1
 ---
 
@@ -29,8 +32,12 @@ I solved this by developing a **low-temperature ($265^{\circ}C$) hydrothermal ro
 ### 2. Advanced Characterization (PFM)
 To verify the ferroelectric domains and surface potential, I conducted **Piezo-Force Microscopy (PFM)** on individual microcubes.
 
-![PFM Analysis](/images/pfm-analysis.jpg)
-*Figure: Conducting PFM in an AFM instrument on top of a single LKMO microcube to study electromechanical coupling.*
+<div style="text-align: center; margin: 30px 0;">
+    <img src="/images/pfm-analysis.jpg" alt="PFM Analysis" style="height: 300px; width: auto; object-fit: contain; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+    <p style="font-size: 0.9rem; color: #666; margin-top: 10px;">
+        <strong>Figure 2:</strong> Conducting PFM in an AFM instrument on top of a single LKMO microcube to study electromechanical coupling.
+    </p>
+</div>
 
 ---
 
@@ -52,4 +59,9 @@ In a separate study, I extended the utility of LKMO to the **pharmaceutical sect
 * **The Win:** Achieved **100% conversion** at 120°C/7 bar $H_2$, outperforming standard $LaSrMnO_3$ (LSMO).
 * **The Science:** The K-substitution exposes active $Mn$ sites on the surface, whereas Sr-substitution tends to form an inert $SrO$ passivation layer.
 
-[Read Full PhD Thesis](/files/Final Thesis-Vishal Kotha_CH.pdf)
+<div>
+    <p>
+        <a href="/files/Final thesis-Vishal_Kotha.pdf"
+        style="color: #000;">[Read Full PhD Thesis]</a>
+    </p>
+</div>
