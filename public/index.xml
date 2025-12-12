@@ -9,11 +9,39 @@
     <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Advanced Material Synthesis</title>
+      <link>//localhost:1313/expertise/synthesis1/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/synthesis1/</guid>
+      <description>Specialized in Low-Temperature Hydrothermal routes for stabilizing complex perovskite phases.</description>
+    </item>
+    <item>
+      <title>Nanodevice Fabrication (Lithography)</title>
+      <link>//localhost:1313/expertise/fabrication/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/fabrication/</guid>
+      <description>Design and fabrication of sub-10nm device architectures for quantum transport.</description>
+    </item>
+    <item>
       <title>Multifunctional Perovskites: From Batteries to Green Pharma</title>
       <link>//localhost:1313/research/multifunctional-perovskites-from-batteries-to-green-pharma/</link>
       <pubDate>Mon, 01 Aug 2022 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/research/multifunctional-perovskites-from-batteries-to-green-pharma/</guid>
       <description>Tailoring K-substituted $LaMnO_3$ for high-stability Zinc-Air batteries and selective organocatalysis.</description>
+    </item>
+    <item>
+      <title>Advanced Microscopy (TEM)</title>
+      <link>//localhost:1313/expertise/microscopy/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/microscopy/</guid>
+      <description>Correlating atomic-scale defects with electrochemical performance.</description>
+    </item>
+    <item>
+      <title>Nanodevice Engineering</title>
+      <link>//localhost:1313/expertise/fabrication1/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/fabrication1/</guid>
+      <description>Cleanroom fabrication of sub-10nm device architectures for low-noise transport.</description>
     </item>
     <item>
       <title>Green Hydrogen &amp; Nanodevice Fabrication</title>
@@ -23,11 +51,39 @@
       <description>From Chiral Ni-Au catalysts to Single Nanorod devices: Bridging synthesis with device engineering.</description>
     </item>
     <item>
+      <title>Advanced Microscopy (TEM)</title>
+      <link>//localhost:1313/expertise/microscopy1/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/microscopy1/</guid>
+      <description>Resolving atomic-scale defects to explain electrochemical performance.</description>
+    </item>
+    <item>
+      <title>Material Synthesis Architectures</title>
+      <link>//localhost:1313/expertise/synthesis/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/synthesis/</guid>
+      <description>Controlled growth of transition metal oxides via high-pressure soft chemistry.</description>
+    </item>
+    <item>
       <title>Photocatalysis: Chemically Hard Doping in ZnO</title>
       <link>//localhost:1313/research/photocatalysis-chemically-hard-doping-in-zno/</link>
       <pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/research/photocatalysis-chemically-hard-doping-in-zno/</guid>
       <description>Enhancing dye degradation efficiency by 91% using Al-doped ZnO nanostructures.</description>
+    </item>
+    <item>
+      <title>Scientific Leadership</title>
+      <link>//localhost:1313/expertise/mentorship1/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/mentorship1/</guid>
+      <description>Building resilience and scientific temperament in young researchers.</description>
+    </item>
+    <item>
+      <title>Spectroscopy &amp; International Research</title>
+      <link>//localhost:1313/expertise/spectroscopy/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/spectroscopy/</guid>
+      <description>Advanced characterization of charge carrier dynamics in photovoltaic materials.</description>
     </item>
     <item>
       <title>Computational Materials Science: Boron Carbide</title>
@@ -45,6 +101,34 @@
 &lt;p&gt;I am a &lt;strong&gt;Materials Scientist&lt;/strong&gt; and &lt;strong&gt;Data Engineer&lt;/strong&gt; dedicated to bridging the gap between atomic-level design and real-world energy applications. With a Ph.D. from &lt;strong&gt;IIT Bombay&lt;/strong&gt; and postdoctoral experience at the &lt;strong&gt;Weizmann Institute of Science&lt;/strong&gt;, I specialize in synthesizing transition metal perovskite oxides for green hydrogen and next-gen batteries.&lt;/p&gt;
 &lt;h3 id=&#34;my-philosophy-conscious-science&#34;&gt;My Philosophy: &amp;ldquo;Conscious Science&amp;rdquo;&lt;/h3&gt;
 &lt;p&gt;My approach to research is grounded in the belief that &lt;strong&gt;precision in the laboratory begins with precision of the mind.&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Advanced Material Synthesis</title>
+      <link>//localhost:1313/expertise/material-synthesis/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/material-synthesis/</guid>
+      <description>Controlled growth of transition metal perovskites via Hydrothermal and Sol-Gel techniques.</description>
+    </item>
+    <item>
+      <title>Device Fabrication &amp; Testing</title>
+      <link>//localhost:1313/expertise/device-fabrication/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/device-fabrication/</guid>
+      <description>End-to-end device engineering: form cleanroom processing to low-noise electrical transport measurements.</description>
+    </item>
+    <item>
+      <title>Electron Beam Lithography (EBL)</title>
+      <link>//localhost:1313/expertise/lithography/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/lithography/</guid>
+      <description>Fabrication of sub-10nm device architectures.</description>
+    </item>
+    <item>
+      <title>International Research Experience</title>
+      <link>//localhost:1313/expertise/international-research/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/international-research/</guid>
+      <description>Collaborative research at the Weizmann Institute of Science, Israel.</description>
     </item>
     <item>
       <title>Let&#39;s Collaborate</title>
@@ -142,6 +226,13 @@
 &lt;/div&gt;</description>
     </item>
     <item>
+      <title>Mentorship &amp; Scientific Leadership</title>
+      <link>//localhost:1313/expertise/mentorship/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/mentorship/</guid>
+      <description>Building scientific temperament and resilience in the next generation of researchers.</description>
+    </item>
+    <item>
       <title>Professional Journey</title>
       <link>//localhost:1313/experience/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
@@ -208,6 +299,71 @@
         &lt;div style=&#34;padding: 20px; text-align: center;&#34;&gt;
             &lt;h3 style=&#34;color: #0a192f; margin-top: 0;&#34;&gt;Spectroscopy&lt;/h3&gt;
             &lt;p&gt;&lt;strong&gt;XPS (ESCA) &amp; EDS&lt;/strong&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Transmission Electron Microscopy (TEM)</title>
+      <link>//localhost:1313/expertise/tem-microscopy/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/tem-microscopy/</guid>
+      <description>Atomic scale imaging, diffraction analysis, and defect characterization.</description>
+    </item>
+    <item>
+      <title>X-Ray Crystallography (XRD)</title>
+      <link>//localhost:1313/expertise/crystallography/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/expertise/crystallography/</guid>
+      <description>Structural determination and phase identification of polycrystalline materials.</description>
+    </item>
+    <item>
+      <title></title>
+      <link>//localhost:1313/additional-code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/additional-code/</guid>
+      <description>&lt;p&gt;/* Extra code I deleted from the Home page bottom*/&lt;/p&gt;
+&lt;h2 id=&#34;technical-arsenal&#34;&gt;Technical Arsenal&lt;/h2&gt;
+&lt;div class=&#34;project-grid&#34;&gt;
+    &lt;article class=&#34;project-card&#34;&gt;
+        &lt;a href=&#34;//localhost:1313/expertise/tem-microscopy/&#34; style=&#34;display:block;&#34;&gt;
+            &lt;img src=&#34;//localhost:1313/images/action-tem.jpg&#34; style=&#34;height:200px; object-fit:cover; width:100%;&#34;&gt;
+            &lt;div style=&#34;padding:15px;&#34;&gt;
+                &lt;h3&gt;Microscopy (TEM)&lt;/h3&gt;
+                &lt;p&gt;Atomic scale imaging and defect analysis.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/article&gt;
+    &lt;article class=&#34;project-card&#34;&gt;
+        &lt;a href=&#34;//localhost:1313/expertise/device-fabrication/&#34; style=&#34;display:block;&#34;&gt;
+            &lt;img src=&#34;//localhost:1313/images/device-5probe.jpg&#34; style=&#34;height:200px; object-fit:cover; width:100%;&#34;&gt;
+            &lt;div style=&#34;padding:15px;&#34;&gt;
+                &lt;h3&gt;Device Fabrication&lt;/h3&gt;
+                &lt;p&gt;Sub-micron lithography and contact engineering.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/article&gt;
+    &lt;article class=&#34;project-card&#34;&gt;
+        &lt;a href=&#34;//localhost:1313/expertise/material-synthesis/&#34; style=&#34;display:block;&#34;&gt;
+            &lt;img src=&#34;//localhost:1313/images/hydrothermal-setup.jpg&#34; style=&#34;height:200px; object-fit:cover; width:100%;&#34;&gt;
+            &lt;div style=&#34;padding:15px;&#34;&gt;
+                &lt;h3&gt;Synthesis&lt;/h3&gt;
+                &lt;p&gt;High-pressure hydrothermal growth.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/a&gt;
+    &lt;/article&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href=&#34;//localhost:1313/expertise/&#34;&gt;View Full Methodology →&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;p&gt;Extra Synthesis content from synthesis1.md &amp;hellip;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;weight-1&#34;&gt;title: &amp;ldquo;Advanced Material Synthesis&amp;rdquo;
+date: 2024-01-01
+cover:
+image: &amp;ldquo;/images/hydrothermal-setup.jpg&amp;rdquo;
+alt: &amp;ldquo;Hydrothermal Autoclaves&amp;rdquo;
+description: &amp;ldquo;Specialized in Low-Temperature Hydrothermal routes for stabilizing complex perovskite phases.&amp;rdquo;
+weight: 1&lt;/h2&gt;
+&lt;h3 id=&#34;the-challenge-overcoming-thermodynamics&#34;&gt;The Challenge: Overcoming Thermodynamics&lt;/h3&gt;
+&lt;p&gt;Transition metal perovskites (like $LaMnO_3$) traditionally require solid-state reactions at &amp;gt;1000°C to form. This leads to bulk, sintered products with low surface area, limiting their catalytic utility.&lt;/p&gt;</description>
     </item>
     <item>
       <title>404: Page Not Found</title>

@@ -38,7 +38,7 @@ Innovated **Zinc-Air Batteries** using Potassium-substituted Perovskites ($La_{1
 Pioneered **Chiral Ni-Au Electrocatalysts** for Hydrogen Evolution Reaction (HER) and synthesized Double Perovskites for water splitting.
 
 ### 🔬 Advanced Characterization
-Expert in **FEG-TEM** (500+ hours), **XPS**, and **Nanofabrication** (Lithography, ALD) to visualize and engineer materials at the nanoscale.
+Expert in **[FEG-TEM](/expertise/tem-microscopy)** (500+ hours), **[XPS](/expertise/spectroscopy)**, and **[Nanofabrication](/expertise/fabrication)** (Lithography, ALD) to visualize and engineer materials at the nanoscale.
 
 ---
 ## Recent Publications

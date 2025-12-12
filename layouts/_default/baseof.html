@@ -35,6 +35,7 @@
         <ul>
             <li><a href="/about">About</a></li>
             <li><a href="/capabilities">Capabilities</a></li>
+            <li><a href="/Expertise">Expertise</a></li>
             <li><a href="/research">Research</a></li>
             <li><a href="/publications">Publications</a></li>
             <li><a href="/experience">Experience</a></li>
@@ -47,7 +48,7 @@
         {{ block "main" . }}{{ end }}
     </main>
     
-    <button onclick="topFunction()" id="myBtn" title="Go to top">↑</button>
+    <a href="javascript:void(0);" onclick="topFunction(); return false;" id="myBtn" title="Go to top" style="text-decoration:none; display:none; align-items:center; justify-content:center;">↑</a>
     
     <footer>
         <div class="footer-container">
@@ -83,34 +84,47 @@
         });
     </script>
     <script>
-        // Get the button
-        let mybutton = document.getElementById("myBtn");
+        /* =========================================
+           1. SCROLL TO TOP (Polite Animation)
+           ========================================= */
+        const mybutton = document.getElementById("myBtn");
+        let isAutoScrolling = false; // The Kill Switch flag
 
-        // Show button when scrolling down 20px
-        window.onscroll = function() {scrollFunction()};
-
-        function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-                mybutton.style.display = "block";
-            } else {
-                mybutton.style.display = "none";
-            }
+        // A. Button Visibility
+        if (mybutton) {
+            window.addEventListener('scroll', function() {
+                if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                    mybutton.style.display = "flex";
+                } else {
+                    mybutton.style.display = "none";
+                }
+            });
         }
 
-        // ROBUST SMOOTH SCROLL TO TOP
-        function topFunction() {
-            // Get current position
-            const currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+        // B. The Scroll Function
+        window.topFunction = function() {
+            isAutoScrolling = true; // Engage auto-pilot
             
-            // If we are not at the top yet...
-            if (currentScroll > 0) {
-                // Request the next animation frame (smooth 60fps)
-                window.requestAnimationFrame(topFunction);
+            function step() {
+                if (!isAutoScrolling) return; // Stop instantly if user interrupts
+
+                const currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
                 
-                // Move up by 1/10th of the remaining distance (Creates a deceleration effect)
-                window.scrollTo(0, currentScroll - (currentScroll / 10));
+                if (currentScroll > 0) {
+                    window.requestAnimationFrame(step);
+                    // Move up by 1/8th of remaining distance (Smooth deceleration)
+                    window.scrollTo(0, currentScroll - (currentScroll / 8));
+                } else {
+                    isAutoScrolling = false; // We arrived
+                }
             }
-        }
+            step();
+        };
+
+        // C. The Interrupt Listeners (Stop if user interacts)
+        window.addEventListener("wheel", () => isAutoScrolling = false);
+        window.addEventListener("touchmove", () => isAutoScrolling = false);
+        window.addEventListener("keydown", () => isAutoScrolling = false);
 
         // CAROUSEL SCROLL FUNCTION
         function scrollPubs(direction) {
@@ -159,7 +173,8 @@
     <script>
         /* --- LIGHTBOX LOGIC --- */
         document.addEventListener('DOMContentLoaded', function () {
-            
+            console.log("Engine Loaded");
+
             // Grab the modal elements
             const lightbox = document.getElementById('lightbox-modal');
             const lightboxImg = document.getElementById('lightbox-img');

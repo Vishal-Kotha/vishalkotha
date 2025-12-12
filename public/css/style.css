@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Merriweather:wght@300;400;700&display=swap');
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important; /* This forces ALL anchor links (like href='#') to scroll smoothly */
 }
 
 :root {
@@ -70,20 +70,23 @@ main {
 /* UPDATED HERO with Background Image */
 .hero {
     /* Linear Gradient overlays the Navy color on top of the image so text stays readable */
-    background: linear-gradient(rgba(10, 25, 47, 0.85), rgba(10, 25, 47, 0.9)), url('/images/hero-bg3.jpg');
+    background: linear-gradient(rgba(10, 25, 47, 0.80), rgba(10, 25, 47, 0.80)), url('/images/hero-bg3.jpg');
     background-size: cover;
     background-position: center;
     color: #ffffff;
-    padding: 10px 20px; /* Taller padding for more impact */
+    padding: 12px 20px; /* Taller padding for more impact */
     text-align: center;
     border-radius: 0 0 50% 50% / 40px; /* Elegant curve at the bottom */
     margin-bottom: 60px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+
+    /* ADDED: Text Shadow to ensure text is readable on top of the image */
+    text-shadow: 0 2px 4px rgba(0,0,0,0.7);
 }
 
 /* Ensure the text pops against the background */
 .hero h1 {
-    text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+    text-shadow: 0 2px 4px rgba(0,0,0,0.9);
 }
 
 .hero h1 {
@@ -945,3 +948,10 @@ nav { background: var(--nav-bg); border-bottom: 1px solid var(--border-color); }
 .project-card, .pub-card, .timeline-content { background: var(--card-bg); border-color: var(--border-color); }
 h1, h2, h3, h4 { color: var(--primary-color); }
 a { color: var(--accent-color); }
+
+/* HIDE SCROLL BUTTON ON MOBILE */
+@media (max-width: 768px) {
+    #myBtn {
+        display: none !important;
+    }
+}
