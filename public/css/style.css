@@ -955,3 +955,24 @@ a { color: var(--accent-color); }
         display: none !important;
     }
 }
+
+/* --- FIX: Remove Yellow Strip from Images --- */
+
+/* 1. Kills the bottom border on the lightbox triggers (Story Images) */
+a.lightbox-trigger {
+    border-bottom: none !important;
+    text-decoration: none !important;
+    background: none !important;
+}
+
+/* 2. Kills the bottom border on the main Grid Cards */
+.project-card a {
+    border-bottom: none !important;
+    text-decoration: none !important;
+}
+
+/* 3. Removes the "focus" outline (optional, for clicking) */
+a.lightbox-trigger:focus, 
+.project-card a:focus {
+    outline: none !important;
+}

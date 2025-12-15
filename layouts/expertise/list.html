@@ -1,38 +1,85 @@
 {{ define "main" }}
-<main class="main">
-  
-  <header class="page-header">
-    <h1>{{ .Title }}</h1>
-    <div class="post-content">
-      {{ .Content }}
-    </div>
+<main class="main" style="max-width: 1100px; margin: 0 auto; padding: 40px 20px;">
+
+  <header class="page-header" style="text-align: center; margin-bottom: 60px;">
+    <h1 style="font-size: 2.5rem; color: #0a192f; margin-bottom: 15px;">{{ .Title }}</h1>
+    <div style="width: 60px; height: 4px; background: #d4af37; margin: 0 auto 20px;"></div>
+    <p style="font-size: 1.1rem; color: #666; max-width: 700px; margin: 0 auto;">
+      {{ .Description }}
+    </p>
   </header>
 
-  <div class="project-grid">
-    {{ range .Pages }}
-      <article class="project-card" style="padding: 0; overflow: hidden; border-left: 5px solid #d4af37;">
-        
-        <a href="{{ .Permalink }}" style="display: block; text-decoration: none; color: inherit; border-bottom: none;">
-          
-          {{ if .Params.cover.image }}
-            <div style="height: 200px; overflow: hidden;">
-                <img loading="lazy" src="{{ .Params.cover.image }}" alt="{{ .Title }}" style="width: 100%; height: 100%; object-fit: cover; margin: 0; border-radius: 0;">
-            </div>
-          {{ end }}
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 1.8rem; color: #0a192f; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 30px;">
+      🔬 Instrumentation Proficiency
+    </h2>
+    <div class="project-grid">
+      {{ range where .Pages "Params.category" "instrumentation" }}
+        {{ partial "expertise-card.html" . }}
+      {{ end }}
+    </div>
+  </section>
 
-          <div style="padding: 20px;">
-            <h3 style="margin-top: 0; color: #0a192f;">{{ .Title }}</h3>
-            <p style="font-size: 0.9rem; color: #666; line-height: 1.6;">{{ .Description }}</p>
-            
-            <span style="color: #d4af37; font-weight: bold; font-size: 0.85rem; margin-top: 10px; display: block;">
-              View Project ↗
-            </span>
-          </div>
-          
-        </a>
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 1.8rem; color: #0a192f; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 30px;">
+      ⚗️ Synthesis Architectures
+    </h2>
+    <div class="project-grid">
+      {{ range where .Pages "Params.category" "synthesis" }}
+        {{ partial "expertise-card.html" . }}
+      {{ end }}
+    </div>
+        <div style="background: #fff; padding: 20px; border-left: 5px solid #d4af37; box-shadow: 0 2px 5px rgba(0,0,0,0.05); margin-bottom: 20px;">
+        <h3 style="margin-top: 0;">🔥 Molten Salt (TMSS) & Hydrothermal</h3>
+        <p>Specialized in <strong>Topochemical Molten Salt Synthesis (TMSS)</strong> for high-crystallinity powders and low-temperature hydrothermal routes for metastable phases.</p>
+    </div>
+
+    <div style="background: #fff; padding: 20px; border-left: 5px solid #d4af37; box-shadow: 0 2px 5px rgba(0,0,0,0.05); margin-bottom: 20px;">
+        <h3 style="margin-top: 0;">⚡ Electrodeposition & Thin Films</h3>
+        <p>Development of Zinc electrodes via electroplating and fabrication of contact pads using <strong>Orion Sputtering</strong> and <strong>CVD</strong>.</p>
+    </div>
+
+    <div style="background: #fff; padding: 20px; border-left: 5px solid #d4af37; box-shadow: 0 2px 5px rgba(0,0,0,0.05); margin-bottom: 20px;">
+        <h3 style="margin-top: 0;">🌪️ Dynamic Hydrothermal (DH)</h3>
+        <p>Developed a proprietary stirring-assisted protocol to synthesize high-aspect-ratio <strong>nanorods</strong> by overcoming diffusion limitations.</p>
+    </div>
+
+    <div style="background: #fff; padding: 20px; border-left: 5px solid #d4af37; box-shadow: 0 2px 5px rgba(0,0,0,0.05); margin-bottom: 20px;">
+        <h3 style="margin-top: 0;">⚙️ Mechanochemistry</h3>
+        <p>Shear-induced exfoliation and nucleation of nanomaterials for scalable production.</p>
+    </div>
+  </section>
+
+  <section style="margin-bottom: 60px;">
+    <h2 style="font-size: 1.8rem; color: #0a192f; border-bottom: 1px solid #eee; padding-bottom: 10px; margin-bottom: 30px;">
+      🤝 Leadership & Transferable Skills
+    </h2>
+    <div class="project-grid">
+      {{ range where .Pages "Params.category" "leadership" }}
+        {{ partial "expertise-card.html" . }}
+      {{ end }}
+    </div>
+    <div class="project-grid">
+      <article class="project-card">
+          <h4 style="color: #0a192f; margin-top:0;">Project Management</h4>
+          <p style="font-size: 0.9rem; color: #666;">Led the "Mess Digitalization" project for 2000 students, optimizing logistics and reducing costs by 15%.</p>
       </article>
-    {{ end }}
-  </div>
-
+      <article class="project-card">
+          <h4 style="color: #0a192f; margin-top:0;">Mentorship</h4>
+          <p style="font-size: 0.9rem; color: #666;">Guided 4 M.Sc./B.Sc. students through their thesis projects, focusing on experimental design, instrument training, and scientific ethics.</p>
+      </article>
+      <article class="project-card">
+          <h4 style="color: #0a192f; margin-top:0;">Collaboration</h4>
+          <p style="font-size: 0.9rem; color: #666;">Executed cross-border research (India-Israel) on chiral spintronics.</p>
+      </article>
+      <article class="project-card">
+          <h4 style="color: #0a192f; margin-top:0;">Mechanochemistry</h4>
+          <p style="font-size: 0.9rem; color: #666;">Shear-induced exfoliation and nucleation of nanomaterials for scalable production.</p>
+      </article>
+    </div>
+  </section>
+  <section style="background: #f9f9f9; padding: 30px; border-radius: 8px; margin-top: 40px;">
+    {{ .Content }}
+  </section>
 </main>
 {{ end }}

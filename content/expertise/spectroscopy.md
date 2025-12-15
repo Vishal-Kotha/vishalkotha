@@ -1,33 +1,48 @@
 ---
-title: "Spectroscopy & International Research"
+title: "Spectroscopy & Surface Science"
+category: "instrumentation"
 date: 2024-01-01
 cover:
-    image: "/images/exp-weizmann.jpg"
-    alt: "Weizmann Institute Lab"
-description: "Advanced characterization of charge carrier dynamics in photovoltaic materials."
-weight: 4
+    image: "/images/icon-spectroscopy.jpg"
+    alt: "XPS Analysis"
+description: "Unraveling surface oxidation states and reaction kinetics via XPS, EDS, and Impedance Spectroscopy."
+weight: 5
 ---
 
-### Global Research at Weizmann
-During my tenure at the **Weizmann Institute of Science (Israel)**, I worked at the intersection of solid-state physics and chemistry. The focus was on understanding the *dynamic* behavior of charge carriers in semiconductor materials.
+### The Surface is the Stage
+In electrocatalysis, the bulk formula doesn't matter as much as the surface state. To understand *why* my K-substituted Perovskites outperformed standard catalysts, I had to probe the top few nanometers of the material.
 
-### Advanced Characterization
-My work moved beyond static measurements to time-resolved and frequency-dependent techniques:
-* **Impedance Spectroscopy (EIS):** To separate grain boundary resistance from bulk resistance.
-* **Photoluminescence (PL):** To study recombination lifetimes in perovskite solar absorbers.
+**1. X-Ray Photoelectron Spectroscopy (XPS)**
+* **The Query:** Did Potassium substitution actually change the manganese oxidation state?
+* **The Analysis:** I performed high-resolution deconvolution of the **Mn 2p** spectra.
+* **The Finding:** The spectra revealed a shift in the $Mn^{3+}/Mn^{4+}$ ratio. The incorporation of $K^+$ created significant **$Mn^{4+}$ surface defects**, which act as the primary active sites for oxygen adsorption during the ORR process.
+
+**2. Electrochemical Impedance Spectroscopy (EIS)**
+* **The Query:** Is the catalyst inherently faster, or just more conductive?
+* **The Analysis:** I modeled the Nyquist plots using a Randles equivalent circuit.
+* **The Finding:** The K-substituted samples showed a drastically reduced **Charge Transfer Resistance ($R_{ct}$)** compared to the pristine sample, confirming faster electron transfer kinetics at the electrode-electrolyte interface.
 
 ### Visual Methodology
 <div class="project-grid">
     <figure>
-        <a href="/images/exp-weizmann.jpg" class="lightbox-trigger" data-caption="Optical spectroscopy setup at Weizmann Institute for analyzing semiconductor bandgaps.">
-            <img src="/images/exp-weizmann.jpg" alt="Spectroscopy Lab">
+        <a href="/images/icon-spectroscopy.jpg" class="lightbox-trigger" data-caption="<strong>XPS Deconvolution:</strong> High-resolution Mn 2p spectrum showing the coexistence of Mn3+ and Mn4+ states.">
+            <img src="/images/icon-spectroscopy.jpg" alt="XPS Spectra" style="height: 250px; object-fit: cover; width: 100%;">
         </a>
-        <figcaption>Figure 1: Optical Setup (Weizmann)</figcaption>
+        <figcaption>Figure 1: Deconvoluted XPS spectra revealing surface oxidation states.</figcaption>
     </figure>
     <figure>
-        <a href="/images/hero-science.jpg" class="lightbox-trigger" data-caption="Data analysis of impedance spectra (Nyquist plots).">
-            <img src="/images/hero-science.jpg" alt="Data Analysis">
+        <a href="/images/exp-weizmann1.jpg" class="lightbox-trigger" data-caption="<strong>Kinetics:</strong> Nyquist plots derived from EIS, showing reduced arc radius (lower resistance) for the doped catalyst.">
+            <img src="/images/exp-weizmann1.jpg" alt="EIS Data" style="height: 250px; object-fit: cover; width: 100%;">
         </a>
-        <figcaption>Figure 2: Data Interpretation</figcaption>
+        <figcaption>Figure 2: Reaction Kinetics (EIS)</figcaption>
     </figure>
+</div>
+
+---
+### 📜 Source & Citation
+<div style="background-color: #f9f9f9; padding: 20px; border-left: 5px solid #d4af37; font-size: 0.9rem; margin-top: 20px;">
+    <p><strong>Note:</strong> Data derived from the author's doctoral research. Citation:</p>
+    <p style="font-family: monospace; background: #eee; padding: 10px; border-radius: 4px;">
+        Kotha, V. (2022). <em>Tailoring Transition Metal Perovskite Oxides...</em> [Doctoral dissertation, IIT Bombay].
+    </p>
 </div>

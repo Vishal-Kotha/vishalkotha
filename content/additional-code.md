@@ -83,3 +83,56 @@ I developed a low-temperature hydrothermal protocol using highly alkaline minera
 
 ---
 
+---
+title: "Spectroscopy & International Research"
+date: 2024-01-01
+cover:
+    image: "/images/exp-weizmann.jpg"
+    alt: "Weizmann Institute Lab"
+description: "Advanced characterization of charge carrier dynamics at the Weizmann Institute of Science."
+weight: 5
+---
+
+### Global Research at Weizmann
+
+
+Science has no borders. My tenure at the **Weizmann Institute of Science (Israel)** exposed me to a high-octane research environment at the intersection of solid-state physics and chemistry.
+
+**The Focus:** Understanding the *dynamic* behavior of charge carriers in semiconductor materials for next-generation photovoltaics.
+
+---
+
+### Advanced Characterization Techniques
+Moving beyond static DC measurements, I employed frequency-dependent and time-resolved spectroscopy to isolate specific recombination mechanisms.
+
+**1. Impedance Spectroscopy (EIS)**
+* **The Physics:** By applying an AC voltage over a frequency range, we can distinguish between processes with different time constants.
+* **Application:** Separated **grain boundary resistance** from **bulk resistance** in perovskite solar absorbers, identifying the exact location of charge trapping.
+
+**2. Photoluminescence (PL) Spectroscopy**
+* **The Physics:** Measuring the emission spectrum after photo-excitation.
+* **Application:** Investigated carrier recombination lifetimes. A longer lifetime indicates lower defect density and better solar cell efficiency.
+
+**3. Chiral-Induced Spin Selectivity (CISS)**
+* **Collaboration:** Worked with diverse teams to investigate how electron spin influences water splitting efficiency on chiral-molecule-coated electrodes.
+
+---
+
+### Visual Methodology
+<div class="project-grid">
+    <figure>
+        <a href="/images/exp-weizmann.jpg" class="lightbox-trigger" data-caption="Optical spectroscopy setup at Weizmann Institute for analyzing semiconductor bandgaps.">
+            <img src="/images/exp-weizmann.jpg" alt="Spectroscopy Lab" style="height: 250px; object-fit: cover; width: 100%;">
+        </a>
+        <figcaption>Figure 1: Optical Setup (Weizmann)</figcaption>
+    </figure>
+    <figure>
+        <a href="/images/hero-science.jpg" class="lightbox-trigger" data-caption="Data analysis of impedance spectra (Nyquist plots) to model equivalent circuits.">
+            <img src="/images/hero-science.jpg" alt="Data Analysis" style="height: 250px; object-fit: cover; width: 100%;">
+        </a>
+        <figcaption>Figure 2: Impedance Data Analysis</figcaption>
+    </figure>
+</div>
+
+---
+

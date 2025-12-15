@@ -9,109 +9,46 @@
     <lastBuildDate>Mon, 01 Jan 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="//localhost:1313/expertise/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Advanced Material Synthesis</title>
-      <link>//localhost:1313/expertise/synthesis1/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/expertise/synthesis1/</guid>
-      <description>Specialized in Low-Temperature Hydrothermal routes for stabilizing complex perovskite phases.</description>
-    </item>
-    <item>
-      <title>Nanodevice Fabrication (Lithography)</title>
+      <title>Nanodevice Engineering &amp; Lithography</title>
       <link>//localhost:1313/expertise/fabrication/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/expertise/fabrication/</guid>
-      <description>Design and fabrication of sub-10nm device architectures for quantum transport.</description>
+      <description>Precision fabrication of single-nanorod FETs and custom 5-probe architectures using EBL, Photolithography, and FIB.</description>
     </item>
     <item>
       <title>Advanced Microscopy (TEM)</title>
       <link>//localhost:1313/expertise/microscopy/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/expertise/microscopy/</guid>
-      <description>Correlating atomic-scale defects with electrochemical performance.</description>
-    </item>
-    <item>
-      <title>Nanodevice Engineering</title>
-      <link>//localhost:1313/expertise/fabrication1/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/expertise/fabrication1/</guid>
-      <description>Cleanroom fabrication of sub-10nm device architectures for low-noise transport.</description>
-    </item>
-    <item>
-      <title>Advanced Microscopy (TEM)</title>
-      <link>//localhost:1313/expertise/microscopy1/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/expertise/microscopy1/</guid>
-      <description>Resolving atomic-scale defects to explain electrochemical performance.</description>
-    </item>
-    <item>
-      <title>Material Synthesis Architectures</title>
-      <link>//localhost:1313/expertise/synthesis/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/expertise/synthesis/</guid>
-      <description>Controlled growth of transition metal oxides via high-pressure soft chemistry.</description>
-    </item>
-    <item>
-      <title>Scientific Leadership</title>
-      <link>//localhost:1313/expertise/mentorship1/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/expertise/mentorship1/</guid>
-      <description>Building resilience and scientific temperament in young researchers.</description>
-    </item>
-    <item>
-      <title>Spectroscopy &amp; International Research</title>
-      <link>//localhost:1313/expertise/spectroscopy/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/expertise/spectroscopy/</guid>
-      <description>Advanced characterization of charge carrier dynamics in photovoltaic materials.</description>
+      <description>Resolving atomic-scale defects, stacking faults, and lattice dynamics to explain electrochemical behavior.</description>
     </item>
     <item>
       <title>Advanced Material Synthesis</title>
-      <link>//localhost:1313/expertise/material-synthesis/</link>
+      <link>//localhost:1313/expertise/synthesis/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/expertise/material-synthesis/</guid>
-      <description>Controlled growth of transition metal perovskites via Hydrothermal and Sol-Gel techniques.</description>
+      <guid>//localhost:1313/expertise/synthesis/</guid>
+      <description>Specialized in Low-Temperature Hydrothermal &amp;amp; Solvothermal routes for stabilizing complex perovskite phases.</description>
     </item>
     <item>
-      <title>Device Fabrication &amp; Testing</title>
-      <link>//localhost:1313/expertise/device-fabrication/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/expertise/device-fabrication/</guid>
-      <description>End-to-end device engineering: form cleanroom processing to low-noise electrical transport measurements.</description>
-    </item>
-    <item>
-      <title>Electron Beam Lithography (EBL)</title>
-      <link>//localhost:1313/expertise/lithography/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/expertise/lithography/</guid>
-      <description>Fabrication of sub-10nm device architectures.</description>
-    </item>
-    <item>
-      <title>International Research Experience</title>
-      <link>//localhost:1313/expertise/international-research/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/expertise/international-research/</guid>
-      <description>Collaborative research at the Weizmann Institute of Science, Israel.</description>
-    </item>
-    <item>
-      <title>Mentorship &amp; Scientific Leadership</title>
+      <title>Scientific Leadership &amp; Mentorship</title>
       <link>//localhost:1313/expertise/mentorship/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/expertise/mentorship/</guid>
-      <description>Building scientific temperament and resilience in the next generation of researchers.</description>
+      <description>Building resilience and scientific temperament in the next generation of researchers.</description>
     </item>
     <item>
-      <title>Transmission Electron Microscopy (TEM)</title>
-      <link>//localhost:1313/expertise/tem-microscopy/</link>
+      <title>Spectroscopy &amp; Surface Science</title>
+      <link>//localhost:1313/expertise/spectroscopy/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/expertise/tem-microscopy/</guid>
-      <description>Atomic scale imaging, diffraction analysis, and defect characterization.</description>
+      <guid>//localhost:1313/expertise/spectroscopy/</guid>
+      <description>Unraveling surface oxidation states and reaction kinetics via XPS, EDS, and Impedance Spectroscopy.</description>
     </item>
     <item>
-      <title>X-Ray Crystallography (XRD)</title>
+      <title>Crystallography &amp; Diffraction</title>
       <link>//localhost:1313/expertise/crystallography/</link>
       <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/expertise/crystallography/</guid>
-      <description>Structural determination and phase identification of polycrystalline materials.</description>
+      <description>SAED pattern indexing for precise crystal phase identification.</description>
     </item>
   </channel>
 </rss>
